@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+#header {
+  background-color: #CCEEFF;/*查色碼表*/
+  padding: 5px 0px 30px 0px; /*上右下左*/
+  text-align: center;
+}
+
+#myInput {
+  font-family: 'Caveat', 微軟正黑體;
+  font-size: 15px;
+}
+
+.memoBtn {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  font-family: 'Mansalva';
+  font-size: 15px;
+  transition-duration: 0.4s;
+}
+
+.memoBtn:hover {/*滑鼠指過去*/
+  background-color: #008CBA;
+  color: white;
+}
+
